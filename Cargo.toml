@@ -1,0 +1,18 @@
+[package]
+name = "stm32f103-hal"
+version = "0.1.0"
+edition = "2021"
+description = "Hardware Abstraction Layer for STM32F103 microcontrollers"
+repository = "https://github.com/Abdelrahmanosama372/stm32f103-hal-rs.git"
+license = "MIT"
+keywords = ["stm32", "embedded", "hal", "rust"]
+categories = ["embedded", "hardware-support"]
+
+authors = ["Abdelrahman abdelrahmanosama372@gmail.com"]
+
+[dependencies]
+volatile-register = "0.2.2"
+cortex-m = "0.7"
+
+[features]
+rt = []
